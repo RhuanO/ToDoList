@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 0px;
+  align-items: center;
+  
+}
+.main-section {
+  background: transparent;
+  max-width: 500px;
+  width: 90%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px cornflowerblue;
+}
+
+.chkfunc {
+  width: fit-content;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 14px;
+  gap: 10px;
+  margin-left: 25px;
+  width: 100%;
+}
+
+.add-section {
+  width: 100%;
+  background: #fff;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.add-section input {
+  display: block;
+  width: 95%;
+  height: 40px;
+  margin: 10px auto;
+  
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0px 5px;
+  
+}
+
+.add-section button {
+  display: block;
+  width: 95%;
+  height: 40px;
+  margin: 0px auto;
+  border: none;
+  outline: none;
+  background: #0088FF;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-section button:hover {
+  box-shadow: 0 2px 2px 0 #ccc, 0 2px 3px 0 #ccc;
+  opacity: 0.7;
+}
+
+.add-section button span {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+
+#errorMes {
+  display: block;
+  background: #f2dede;
+  width: 95%;
+  margin: 0px auto;
+  color: rgb(139, 19, 19);
+  padding: 10px;
+  height: 35px;
+}
+
+.show-todo-section {
+  width: 100%;
+  background: #fff;
+
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.todo-item {
+  width: 95%;
+  margin: 10px auto;
+  padding: 8px 10px;
+  box-shadow: 0 0px 7px 1px #ccc;
+  border-radius: 5px;
+}
+
+.todo-item h2 {
+  display: inline-block;
+  padding: 5px 0px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #555;
+}
+
+.todo-item small {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  color: #888;
+  padding-left: 30px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.remove-to-do {
+  display: block;
+  float: right;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+.remove-to-do:hover {
+  background: black;
+  color: #fff;
+}
+
+
+.checked {
+  color: #999 !important;
+  text-decoration: line-through;
+}
+
+.todo-item input {
+  margin: 0px 2px;
+  border: 0px;
+  
+  width: auto;
+}
+
+.empty {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #cccc;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  padding-block: 5px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
